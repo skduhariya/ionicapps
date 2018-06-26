@@ -1,0 +1,27 @@
+page-new-update-request {
+    .req_name {
+        text-transform: capitalize;
+    }
+    .custom-label {
+        margin: -2px -10px;
+        padding: 10px 14px 14px;
+        background: #9E9E9E;
+        color: #fff;
+        float: left;
+        width: 108%;
+    }
+    .custom-item {}
+    .custom-item .item-inner {
+        padding-right: 0 !important;
+    }
+    .custom-label-radio {
+        color: #4d4d4d;
+        font-size: 12px;
+        background: #fff;
+        padding: 0px;
+    }
+    .custom-radio {
+        position: absolute;
+        z-index: -1;
+    }
+}

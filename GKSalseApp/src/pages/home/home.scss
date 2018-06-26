@@ -1,0 +1,52 @@
+page-home {
+    .progress-wrapper {
+        position: relative;
+        padding: 6px;
+        border: 1px solid #ddd;
+    }
+    .progress-wrapper .text {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+        font-weight: bold;
+        padding: 12px;
+    }
+    .progress-wrapper .text span {
+        font-size: 16px;
+    }
+    .dash-table {
+        width: 100%;
+    }
+    .dash-table tr td,
+    .dash-table tr th {
+        padding: 6px;
+    }
+    .table-hddr {
+        background: #9C27B0;
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+    }
+    .dash-per-col {
+        background: rgb(7, 138, 199);
+        color: #fff;
+        text-align: center;
+    }
+    .ion-custon-grid {
+        width: 650px;
+    }
+    .ion-custon-grid ion-col {
+        border: 1px solid #111;
+    }
+    .row-res {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        padding: 2px 4px;
+    }
+}

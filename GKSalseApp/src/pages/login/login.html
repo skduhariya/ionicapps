@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>GK Sales App</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content scroll="false" class="login-ion-content">
+    <div class="login-page-logo">
+        <ion-img src="../assets/imgs/gk-logo1.png"></ion-img>
+    </div>
+    <div class="login-page-content">
+        <div class="login-page-heading">
+            <h2>Login</h2>
+        </div>
+
+        <ion-list>
+            <ion-item>
+                <ion-label stacked>Email Id</ion-label>
+                <ion-input type="email" [(ngModel)]="email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label stacked>Password</ion-label>
+                <ion-input type="password" [(ngModel)]="password"></ion-input>
+            </ion-item>
+
+        </ion-list>
+
+        <div padding>
+            <button ion-button block outline (click)="signin()" color="light">Sign In</button>
+        </div>
+    </div>
+    <div class="login-footer">
+        <p>&copy; {{currentYr}} Globalknowledgetech.com</p>
+    </div>
+
+</ion-content>

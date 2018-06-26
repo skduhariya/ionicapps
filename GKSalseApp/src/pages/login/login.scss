@@ -1,0 +1,103 @@
+page-login {
+    .login-ion-content {
+        background: url('../assets/imgs/bg-colored.jpg');
+        background-size: cover;
+    }
+    .login-page-logo ion-img {
+        width: 170px;
+        display: block;
+        margin: 0 auto;
+        height: 89px;
+        background: transparent;
+        margin-top: 35px;
+    }
+    .login-page-content {
+        width: 86%;
+        margin: 10px auto;
+    }
+    .login-page-content .scroll-content {
+        overflow: hidden;
+    }
+    .login-page-content .item-md,
+    .item-ios,
+    .item-wp {
+        background: transparent;
+    }
+    .item-label-stacked .text-input-md,
+    .item-label-floating .text-input-md,
+    .text-input-ios {
+        border-bottom: 1px solid #fff;
+    }
+    .list-md .item-block .item-inner,
+    .list-md .item-input:last-child {
+        border: none !important;
+    }
+    .item-input .label-wp,
+    .item-select .label-wp,
+    .item-datetime .label-wp {
+        color: #e4dcdc;
+    }
+    .text-input-wp {
+        border: 1px solid #ffffff;
+    }
+    .list-md .item-block .item-inner,
+    .list-md .item-input:last-child {
+        box-shadow: none !important;
+    }
+    .item-input .label-md,
+    .item-select .label-md,
+    .item-datetime .label-md {
+        color: #cecdcd;
+    }
+    .login-page-heading {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FF9800;
+        text-align: center;
+    }
+    .login-page-heading h2 {
+        position: relative;
+    }
+    .login-page-heading h2:before {
+        content: '';
+        position: absolute;
+        top: 14px;
+        left: 17px;
+        width: 30%;
+        display: block;
+        border-bottom: 2px solid #FF9800;
+    }
+    .login-page-heading h2:after {
+        content: '';
+        position: absolute;
+        top: 14px;
+        right: 17px;
+        width: 30%;
+        display: block;
+        border-bottom: 2px solid #FF9800;
+    }
+    ion-input,
+    ion-textarea {
+        color: #fff;
+    }
+    .login-footer {
+        background: #464547 none repeat scroll 0 0;
+        padding: 6px 6px 6px 23px;
+        color: white;
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        bottom: 0;
+        background: transparent;
+    }
+    .list-ios>.item-block:first-child,
+    .list-ios>.item-block:last-child,
+    .list-ios>.item-wrapper .item-block,
+    .list-ios .item-block .item-inner {
+        border: none !important;
+    }
+    .label-ios[stacked] {
+        margin-bottom: 4px;
+        font-size: 1.2rem;
+        color: #eee;
+    }
+}
